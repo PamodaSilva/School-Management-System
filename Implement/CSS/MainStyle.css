@@ -111,6 +111,21 @@ body {
     margin-top: 30px;
   }
 
+  .button01 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2.5px solid black;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .button01:hover {
+    background-color: gray;
+  }
+
   .container2 {
     max-width: 1250px;
     margin: 0 auto;
