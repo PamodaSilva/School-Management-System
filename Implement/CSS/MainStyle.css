@@ -86,7 +86,7 @@ body {
   }
 
   .Main-image {
-    background-image: url('https://i.pinimg.com/564x/1e/0c/6d/1e0c6de4dd1c12db6906a2e7b255379d.jpg');
+    background-image: url('https://i.pinimg.com/564x/7e/a0/c3/7ea0c39549be073a5743f7bd60a0fc84.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -97,8 +97,8 @@ body {
   
   .First-text {
     text-align: left;
-    color: #fff;
-    margin-left: -300px;
+    color: black;
+    margin-left: -700px;
   }
   
   .First-text h1 {
