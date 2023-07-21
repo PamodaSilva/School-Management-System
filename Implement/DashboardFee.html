@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Dashboard </title>
-  <link rel="stylesheet" href="CSS/DashboardProfile.css" />
+  <link rel="stylesheet" href="CSS/DashboardFee.css" />
 
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
@@ -29,11 +29,11 @@
               <i class="fas fa-home"></i>
               <span class="nav-item">Home</span>
             </a></li>
-            <li><a href="">
+            <li><a href="DashboardProfile.html">
               <i class="fas fa-user"></i>
               <span class="nav-item">Profile</span>
             </a></li>
-            <li><a href="DashboardFee.html">
+            <li><a href="">
               <i class="fas fa-wallet"></i>
               <span class="nav-item">Fee</span>
             </a></li>
@@ -60,50 +60,70 @@
           </ul>
     </nav>
 
-      <section class="Main-Profile">
-        <h1>My Profile</h1>
-        <div class="Profile-box">
-          <div class="profile01">
+      <section class="Main-Fee">
+        <h1>Student Fee History</h1>
+        <div class="Fee-box">
+          <div class="Fee01">
             <table>
               <tr>
-                <td> Full name :</td>
-                <td> Pamoda Rasangi Silva </td>
-              </tr>
-              <tr>
-                <td> Name With Initial : </td>
-                <td> H.P.R.Silva </td>
+                <td> Name :</td>
+                <td class="text"> Pamoda Rasangi Silva </td>
               </tr>
               <tr>
                 <td>  Email :</td>
-                <td> pamodarasangi@gmail.com </td>
-              </tr>
-              <tr>
-                <td>  Data of Birth :</td>
-                <td> 1999-10-10 </td>
-              </tr>
-              <tr>
-                <td>  Telephone Number :</td>
-                <td> 071-1236598 </td>
+                <td class="text"> pamodarasangi@gmail.com </td>
               </tr>
               <tr>
                 <td>  ID Number :</td>
-                <td> 991234567V </td>
+                <td class="text"> 991234567V </td>
               </tr>
               <tr>
-                <td>  Address :</td>
-                <td> No:123, Galle road, Kalutara. </td>
+                <td>  Fee Full Amount :</td>
+                <td class="text"> Rs.50,000.00 </td>
+              </tr>
+              <tr>
+                <td>  Fee's Paid Date :</td>
+                <td class="text">  2023-07-10 </td>
+              </tr>
+              <tr>
+                <td>  Paid Amount :</td>
+                <td class="text"> Rs.25,000.00 </td>
+              </tr>
+              <tr>
+                <td>  Balance Amount to be Paid :</td>
+                <td class="text"> Rs. 25,000.00 </td>
               </tr>
             </table>
           </div>
-          <div class="profile02">
-            <img src="Image/Person.png" alt="Student">
-            <p class="item1">Pamoda Rasangi</p>
-            <p class="item2">pamodarasangi@gmail.com</p>
+          <div class="Fee02">
+            <p class="item1">Fee's Paid Status :</p>
+            <p class="item2"> Partially Paid</p>
+            <div class="status">
+              <div class="outer">
+                <div class="inner">
+                  <div id="number">
+
+                  </div>
+                </div>
+              </div>
+
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#6495e6" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+
+            </div>
           </div>
-          
         </div>
       </section>
     </section>
   </div>
+
+  <script src="JS/Statusbar.js"></script>
 </body>
 </html>
