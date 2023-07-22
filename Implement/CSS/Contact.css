@@ -116,8 +116,9 @@ nav .login-button:hover {
 
 h1 {
     margin-bottom: 10px;
-    font-size: 40px;
+    font: 2.8em sans-serif;
     text-align: center;
+    font-weight: 600;
 }
 
 .Contact-Container p {

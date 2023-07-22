@@ -21,15 +21,7 @@ header {
 .logo img {
     height: 60px;
 }
-  
-.college-name h1 {
-    font-size: 28px;
-    margin-left: -250px;
-    margin-right: 200px;
-    font: sans-serif;
-    font-weight: bold;
-}
-  
+    
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -191,8 +183,8 @@ footer p {
 
 .Row01 p , .Row02 p{
     flex: 0 0 20%;
-    background-color: #0073ff;
-    border: 1px solid #0073ff;
+    border: 3px solid #0073ff;
+    border-radius: 20px;
     padding: 20px;
     margin-bottom: 10px;
     text-align: center;

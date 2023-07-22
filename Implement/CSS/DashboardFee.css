@@ -12,6 +12,7 @@
 body{
   background: #88bdff;
 }
+
 .container{
   display: flex;
 }
@@ -102,10 +103,9 @@ a:hover{
 
 /* Fee */
 .Main-Fee{
-  margin-top:50px ;
+  margin-top:40px ;
   text-transform: capitalize;
-  margin-left: 90px;
-
+  margin-left: 120px;
 }
 
 .Main-Fee h1{
@@ -124,10 +124,11 @@ a:hover{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .Fee01{
-  margin: 20px;
+  margin: 50px;
   flex-basis: 60%;
   margin-left: 60px;
 }
@@ -159,21 +160,15 @@ tr td{
   margin-left: 75px;
   font-size: 15px;
   border: .8px solid;
-  border-radius: 15px;
+  border-radius: 8px;
   width: 40%;
-  padding: 5px;
+  padding: 8px;
 }
 
 .text{
   text-align: center;
-  padding: 8px 8px;
-  border: .8px solid;
-  border-radius: 15px;
   font-size: 13px;
-}
-
-table tr{
-  margin-top: 50px;
+  text-align: left;
 }
 
 .status{
@@ -230,7 +225,21 @@ svg{
   100%{
     stroke-dashoffset: 236; /*472-472*0.50 = 236*/
   }
-  
+}
+
+.Fee-table table{
+  border: 1.5px solid gray;
+  width: 120%;
+  background: #fff;
+}
+
+.Fee-table tr{
+  margin: 30px;
+}
+
+.Fee-table th, td {
+  padding: 15px;
+  text-align: left;
 }
 
   
